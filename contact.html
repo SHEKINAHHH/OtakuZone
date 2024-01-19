@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>OtakuZone</title>
+</head>
+ 
+<body>
+    <!-- Navbar section -->
+    <navbar id="Navbar">
+        <img src="./image/logo.jpg" alt="logo" id="logo">
+        <ul>
+            <li><a href="home.html">Home</a> </li>
+            <li><a href="about.html">About</a> </li>
+ 
+            <div id="categories">
+                <li><a href="categories.html">Categories <i class="fas fa-caret-down"></i></a></li>
+                <div id="drop-down-box">
+                    <a href="shonen.html">Shonen</a>
+                    <a href="shojo.html">Shoujo</a>
+                    <a href="seinen.html">Seinen</a>
+                    <a href="josei.html">Josei</a>
+                </div>
+            </div>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div id="other-opt">
+            <div class="search">
+                <input style="background-color: white;" type="search" name="search" id="search" placeholder="Search...">
+                <i style="margin-top: 5px;" class="fas fa-search"></i>
+            </div>
+            <button id="signIn">Sign in</button>
+        </div>
+        <img src="./image/menu.png" alt="Menu Png" id="Menu-Btn">
+    </navbar>
+ 
+    <nav id="Other-Navbar">
+        <ul>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">About</a> </li>
+ 
+            <div id="categories">
+                <li><a href="#">Categories <i class="fas fa-caret-down"></i></a></li>
+                <div id="drop-down-box">
+                    <a href="#">Shonen</a>
+                    <a href="#">Shojo</a>
+                    <a href="#">Seinen</a>
+                    <a href="#">Josei</a>
+                    <a href="#">Kodomomuke</a>
+                </div>
+            </div>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="Othersearch" style="margin: auto;">
+            <input type="search" name="search" id="Othersearch" placeholder="Search...">
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+ <!-- Navbar section -->
+ 
+ 
+<!-- Slide section -->
+<div class="MainContainer">
+    <div class="container" style="padding-bottom: 60px; margin: 50px; background-color: rgb(8, 2, 30);">
+    <div class="column" style="margin-top: 70px; font-size: 20px; border-right: 1px solid white;">
+        <h1>Contact Us</h1><br><br>
+        <p>Western Visayas, Philippines<br><br>shekinahramos@gmail.com<br><br>09129460846</p>
+    </div>
+    <div class="column">
+        <form action="#" method="post">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+          
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          
+            <div>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          
+            <div> 
+              <label for="address">Address</label>
+              <input type="text" id="address" name="address" required>
+            </div>
+          
+            
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          
+            <input type="reset" value="Submit">
+          </form>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="container">
+        <div class="column" style="font-size: 18px; padding: 50px;">
+        <h1>OTAKUZONE</h1>
+        <br>
+        <P>shekinahramos@gmail.com</P>
+        <br>
+        <br>
+        <p>©2024 by OtakuZone Site.</p>
+        </div>
+    </div>
+</footer>
+ </body>
+ </html>
